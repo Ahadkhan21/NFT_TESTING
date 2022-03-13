@@ -18,7 +18,7 @@ function LoggedIn() {
 
   
   const web3 = new Web3(window.ethereum);
-  const nftAddress= "0x02Ae61BEaeeB0E67a8493Ff808153586D4705DD1";
+  const nftAddress= //Enter nft contract address
   const Contract =  new web3.eth.Contract(nft_abi, nftAddress);
 
   const client = create('https://ipfs.infura.io:5001/api/v0')
